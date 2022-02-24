@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(115.35deg, #5a2e8a 12.6%, #eb2368 144.14%);
+}
+
+/* css adicionado */
+.tablePDF {
+  background-color: #f4f4f4;
+  margin-bottom: 30px;
+  border-top-left-radius: 10px 10px 0px 0px;
+}
+
+.gridTop {
+  width: 900px;
+  margin: 0 auto;
+}
+.gridSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.imageTable {
+  height: 100px;
+  margin-top: 30px;
+}
+.titlePrincipal {
+  color: #f4f4f4;
+  padding-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+.titleSub {
+  color: #f4f4f4;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+.gridTernario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridLoading {
+  position: absolute;
+  top: 280px;
+  left: 0%;
+  width: 100vw;
+}
