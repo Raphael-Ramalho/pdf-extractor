@@ -4,6 +4,7 @@
 from flask import Flask, jsonify, request #pip install Flask
 from flask_cors import CORS #pip install flask-cors
 import tabula #pip install tabula.py
+#download java
 
 config = {"DEBUG": True}
 
