@@ -150,7 +150,7 @@ function App() {
             Download Excel
           </Button>
         </Grid>
-        <Grid style={{ paddingTop: "30px" }}>
+        <Grid style={{ paddingBottom: "30px"}}>
           {loading ? (
             <Grid className="gridLoading">
               <CircularProgress color="secondary" />
