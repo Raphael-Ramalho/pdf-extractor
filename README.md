@@ -13,8 +13,15 @@ Aplicação web para exibir dados de tabelas em PDF e converte-las em arquivo ex
 
 ### Dependências e instalações:
 <li>Certifique-se de ter python, java e node instalados
-<li>Instale demais dependências -> "yarn run install"
+<li>Instale demais dependências:
+  
+    yarn run install
 
 ### Execução do PDF_Extractor:
-<li>Prepare o servidor local -> "yarn run server"
-<li>Rode o client -> "yarn run start"
+<li>Prepare o servidor local:
+
+    yarn run server
+    
+<li>Rode o client:
+
+    yarn run start
