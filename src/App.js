@@ -35,7 +35,7 @@ function App() {
     data.append("file", selectedFile) //default filename = blob
 
     axios
-      .post("http://localhost:3000/server", data, {
+      .post("http://localhost:8080/server", data, {
         mode: "cors",
         headers: {
           "Content-Type": "application/json",

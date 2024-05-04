@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-# Run "chcp 65001" on terminal before server start
  
-from flask import Flask, jsonify, request #pip install Flask
-from flask_cors import CORS #pip install flask-cors
-import tabula #pip install tabula.py
-#download java
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+import tabula
 
 config = {"DEBUG": True}
 
@@ -27,7 +25,7 @@ def output():
             return response 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', '3000')
+    app.run('0.0.0.0', '8080')
 
 
 
